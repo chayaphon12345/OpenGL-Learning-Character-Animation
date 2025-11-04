@@ -388,7 +388,7 @@ int main()
 		static bool kickHitPerformed = false;
 
 		if (charState == ATTACK_IDLE && animator.m_CurrentTime > 0.3f && animator.m_CurrentTime < 0.6f) {
-			showHitbox = true;
+			showHitbox = false;
 			if (!attackHitPerformed) {
 				if (isEnemyAlive && checkAABBCollision(playerAttackModel, enemyPosition, enemyScale)) {
 					damageEnemy(40.0f);
@@ -401,7 +401,7 @@ int main()
 		}
 
 		if (charState == KICK_IDLE && animator.m_CurrentTime > 0.3f && animator.m_CurrentTime < 0.6f) {
-			showHitbox = true;
+			showHitbox = false;
 			if (!kickHitPerformed) {
 				if (isEnemyAlive && checkAABBCollision(playerAttackModel, enemyPosition, enemyScale)) {
 					damageEnemy(20.0f);
