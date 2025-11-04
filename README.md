@@ -11,5 +11,5 @@ How to control:
 https://github.com/user-attachments/assets/f3cbee3d-24e7-4716-a532-1d2735ad848d
 
 Model Assets:
-  - Knight/Zombie Models: https://www.mixamo.com/
+  - Knight / Zombie Models: https://www.mixamo.com/
   - Map: https://sketchfab.com/3d-models/dungeon-04672ee860754483956c438fe92bc9f7
