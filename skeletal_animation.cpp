@@ -201,7 +201,7 @@ int main()
 				animator.PlayAnimation(&idleAnimation, &walkBackAnimation, animator.m_CurrentTime, 0.0f, blendAmount);
 				charState = IDLE_WALKBACK;
 			}
-			else if (glfwGetKey(window, GLFW_KEY_J) == GLFW_PRESS) {
+			else if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
 				blendAmount = 0.0f;
 				animator.PlayAnimation(&idleAnimation, &attackAnimation, animator.m_CurrentTime, 0.0f, blendAmount);
 				charState = IDLE_ATTACK;
